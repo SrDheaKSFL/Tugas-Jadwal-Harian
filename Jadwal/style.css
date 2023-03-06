@@ -1,0 +1,98 @@
+*{
+	panding:0;
+	margin:0;
+	font-family:sans-serif;
+
+}
+
+*{ color: inherit;
+	text-decoration:none;
+
+ }
+
+.medsos {
+	padding:5px;
+	background-color: #B22222;
+}
+.medsos ul li {
+	display:inline-block;
+	color: #fff;
+	margin-right:30px ;
+
+}
+
+.container{
+	width:80%;
+margin: 0 auto;
+}
+
+.container:after{
+	content:"";
+	display:block;
+	clear:both ;
+}
+
+header{
+	
+}
+header h1{
+	
+	float: left;
+	padding: 15px 0 ;
+	color:#B22222 ;
+}
+header ul{
+
+float: right;
+
+}
+header ul li {
+	display: inline-block;
+}
+header ul li a {
+	display: inline-block;
+	padding:20px 20px ;
+}
+header ul li a:hover{
+	background-color:#6495ED ;
+	color: #fff;
+}
+
+.active{
+	background-color:#6495ED ;
+	color: #fff;
+}
+.banner{
+	background-image: url('biara.JPG');
+	height: 500px;
+	background-size: cover;
+
+	position: relative;
+
+	display: flex;
+	justify-content: center;
+	align-content: center;
+
+
+	
+
+}
+.banner:after{
+	content: '';
+	display:block ;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color:#B22222 ;
+	opacity: 0.45;
+}
+
+.banner h1{
+	color:#fff ;
+	z-index: 1;
+	padding: 1px 1px;
+	
+	
+}
